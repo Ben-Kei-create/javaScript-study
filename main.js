@@ -22,3 +22,13 @@ console.log(10 % 3); // 1
 
 console.log(10 + 2 * 3); // 16
 console.log((10 + 2) * 3); // 36
+
+'use strict';
+
+// 定数を使う場合には、きちんと宣言をすること。
+const price = 150;
+const rate = 1.1;
+
+console.log(price * 120 * rate);
+console.log(price * 130 * rate);
+console.log(price * 140 * rate);
