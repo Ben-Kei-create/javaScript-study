@@ -67,13 +67,31 @@
 // console.log(n + 10);
 // console.log(Number(n) + 10);
 
-const score = Number(prompt('Score?'));
+// const score = Number(prompt('Score?'));
 
-if (score >= 90) {
-    console.log('A');
+// if (score >= 90) {
+//     console.log('A');
 
-} else if (score >= 70) {
-    console.log('B');
-} else {
-    console.log('C');
+// } else if (score >= 70) {
+//     console.log('B');
+// } else {
+//     console.log('C');
+// }
+
+const color = Number(prompt('Color?'));
+
+switch (color) {
+    case 'red':
+        console.log('Stop!');
+        break;
+    case 'yellow':
+        console.log('Slow down!');
+        break;
+    case 'blue':
+    case 'green':
+        console.log('Go!');
+        break;
+    default:
+        console.log('Wrong color');
+        break;
 }
